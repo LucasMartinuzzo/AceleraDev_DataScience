@@ -1,0 +1,37 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.0, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- C:\ProgramData\Anaconda3\envs\aceleradev\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Acer\codenation\data-science-4
+collecting ... collected 7 items
+
+test_submit.py::test_q1 PASSED                                           [ 14%]
+test_submit.py::test_q2 PASSED                                           [ 28%]
+test_submit.py::test_q3 PASSED                                           [ 42%]
+test_submit.py::test_q4 PASSED                                           [ 57%]
+test_submit.py::test_q5 PASSED                                           [ 71%]
+test_submit.py::test_q6 PASSED                                           [ 85%]
+test_submit.py::test_q7 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+C:\ProgramData\Anaconda3\envs\aceleradev\lib\site-packages\matplotlib\backend_bases.py:57
+C:\ProgramData\Anaconda3\envs\aceleradev\lib\site-packages\matplotlib\backend_bases.py:57
+  C:\ProgramData\Anaconda3\envs\aceleradev\lib\site-packages\matplotlib\backend_bases.py:57: DeprecationWarning: PILLOW_VERSION is deprecated and will be removed in a future release. Use __version__ instead.
+    from PIL import PILLOW_VERSION
+
+C:\ProgramData\Anaconda3\envs\aceleradev\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+C:\ProgramData\Anaconda3\envs\aceleradev\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+  C:\ProgramData\Anaconda3\envs\aceleradev\lib\site-packages\ipywidgets\widgets\widget_selection.py:9: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+    from collections import Mapping, Iterable
+
+main.py:162
+test_submit.py::test_q2
+  C:\Users\Acer\codenation\data-science-4\main.py:162: SettingWithCopyWarning: 
+  A value is trying to be set on a copy of a slice from a DataFrame.
+  Try using .loc[row_indexer,col_indexer] = value instead
+  
+  See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+    pop_density['Pop_density'] = est.fit_transform(density).reshape(pop_density.shape[0])
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+--- generated xml file: C:\Users\Acer\codenation\data-science-4\output.xml ----
+==================== 7 passed, 6 warnings in 4.50 seconds =====================
